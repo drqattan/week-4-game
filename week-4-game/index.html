@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet"> 
+
+</head>
+<body>
+
+<h1> Stone Collector! </h1>
+
+<section>
+<p> You will give a random number at the start of the game. 
+There are six stones below. By clicking on a stone you will add a specific amount of points to your total score. 
+you will win the game by matching your total score to a targeted number, you lose the game if your total score goes above the target number. The value of each stone is hidden from you until you click on it. Each time the game starts, the game will change the values of each crystal. </p>
+</section>
+
+<section id="Scoring">
+<h2 id="randomNumber">Random Number:</h2> 
+<h2>  Your Score: <span id="yourScore">0</h2>
+<section id="totalScore">
+	<h2 id="wins"> win</h2>
+	<h2 id="loss"> loss</h2>
+</section>
+</section>
+
+<section id="Stones"> 
+<img src="assets/images/stone1.jpg" id="Stone1">
+<img src="assets/images/stone2.jpg" id="Stone2">
+<img src="assets/images/stone3.jpg" id="Stone3">
+<img src="assets/images/stone4.jpg" id="Stone4">
+<img src="assets/images/stone5.jpg" id="Stone5">
+<img src="assets/images/stone6.jpg" id="Stone6">
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="assets/javascript/game.js"></script>

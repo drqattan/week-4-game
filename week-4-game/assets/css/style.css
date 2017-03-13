@@ -1,0 +1,70 @@
+h1 {
+	font-size: 2em;
+	display: block;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	background-image: url("../images/sapphire.jpg");
+	font-family: 'Bilbo Swash Caps', cursive;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+	position: center;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+
+body{
+	 font-family: 'Bilbo Swash Caps', cursive;
+	 font-size: 22px;
+	 display: block;
+	 position: center;
+}
+
+#Scoring {
+	background-image: url("../images/emerald");
+}
+
+#Stones {
+	height: 50px;
+	margin: 10px 10px 10px 10px;
+	position: center;
+	}
+
+#Stone1 {
+	width:75px;
+	height: 75px;
+}
+
+#Stone2 {
+	width:75px;
+	height: 75px;
+}
+
+#Stone3 {
+	width:75px;
+	heigh
+	t: 75px;
+}
+#Stone4 {
+	width:75px;
+	height: 75px;
+}
+
+#Stone5 {
+	width:75px;
+	height: 75px;
+}
+
+#Stone6 {
+	width:75px;
+	height: 75px;
+}
+
+#Stone7 {
+	width:75px;
+	height: 75px;
+}
