@@ -66,19 +66,31 @@ $("#Stone6").click(function(){
 		});
 	console.log(stone6)	
 
+// $("#yourScore") === var yourscore 
+// $("#randomNumber") === var randomnumber
 
 $("#Stones").click(function() {
-if ("#randomNumber" === "#yourScore") {
+if ("#yourScore" === "#randomNumber") {
 	alert ("You Win")
-	win++
+	$("#wins").html(function(i,val) {return + val + 1});
 }
 
-if ("#randomNumber" < "#yourScore") {
+
+if ("#yourScore" > "#randomNumber") {
 	alert ("you Lose")
-	loss++
+	$("#loss").html(function(i,val) {return + val + 1});
 }
 
-})
+function ResetGlobalVariables () {
+	var randomnumber = Math.floor(Math.random()*50);
+	$("#yourScore").append(0);
+
+}
+ // clear : function() {
+ // 	randomNumber & $("#yourScore" = 0)
+
+ //  }
+	})
 
 // var Stone1 = Math.floor(Math.random()*35);
 // function randomWholeNum () {

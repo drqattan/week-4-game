@@ -25,13 +25,15 @@ body{
 }
 
 #Scoring {
-	background-image: url("../images/emerald");
+	background-image: url("../images/rose-quartz.jpg");
 }
 
 #Stones {
 	height: 50px;
 	margin: 10px 10px 10px 10px;
+	display:block;
 	position: center;
+	margin: auto
 	}
 
 #Stone1 {
@@ -46,8 +48,7 @@ body{
 
 #Stone3 {
 	width:75px;
-	heigh
-	t: 75px;
+	height: 75px;
 }
 #Stone4 {
 	width:75px;
@@ -60,11 +61,6 @@ body{
 }
 
 #Stone6 {
-	width:75px;
-	height: 75px;
-}
-
-#Stone7 {
 	width:75px;
 	height: 75px;
 }
