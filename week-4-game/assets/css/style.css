@@ -31,9 +31,9 @@ body{
 #Stones {
 	height: 50px;
 	margin: 10px 10px 10px 10px;
+	position:relative;
 	display:block;
-	position: center;
-	margin: auto
+	margin: auto;
 	}
 
 #Stone1 {
